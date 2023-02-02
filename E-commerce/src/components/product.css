@@ -1,0 +1,94 @@
+/* header*/
+*{
+    font-family: 'Ubuntu', sans-serif;
+    
+  }
+.header{
+    background-color: #00FFFF;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Select Box*/
+.select{
+    margin-left: 30px;
+    width: 200px;
+    height: 35px;
+}
+/* Main Body*/
+.main-body{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.imagesection img , img {
+    width: 300px;
+    height: 300px;
+}
+img:hover{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    transform: scale(115%, 115%);
+
+
+}
+/*  Pagination*/
+.pagenation{
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 180px;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.pagebody{
+    display: flex;
+    column-gap: 10px;
+}
+.blue{
+    color: #67b6ee;
+}
+.grey{
+    color: rgb(196, 195, 195);
+}
+.Tablesection{
+    height: 500px;
+}
+.Line{
+    margin-right: 10px;
+}
+.downarrow{
+    margin-left: 10px;
+}
+
+/* */
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+.heading button {
+    border: none;
+    outline: none;
+    padding: 3px;
+    background-color: rgb(185, 185, 93);
+    color: white;
+}
+.modalbody {
+    display: flex;
+    margin-top: 20px;
+}
